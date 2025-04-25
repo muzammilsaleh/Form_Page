@@ -5,37 +5,69 @@
 </head>
 
 <body>
+<center><div>
     <label for="fname">Name:</label>
     <br>
-    <input type="text" id="fname" name="fname">
+    <input type="text">
     <br>
     <label for="femail">Email:</label>
     <br>
-    <input type="text" id="femail" name="femail">
+    <input type="text">
     <br>
     <label for="fage">Age:</label>
     <br>
-    <input type="text" id="fage" name="fage">
+    <input type="text">
     <br>
 
-    <label for="options">Which option describes you best?:</label>
+    <label for="text">Which option describes you best?</label>
     <br>
     <select name="options" id="options">
-        <option value="volvo">Student</option>
-        <option value="saab">Teacher</option>
-        <option value="mercedes">Head</option>
+        <option value="option1">Student</option>
+        <option value="option2">Teacher</option>
+        <option value="option3">Head</option>
     </select>
+    <br>
+    <br>
     <form action="/action_page">
-        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-        <label for="vehicle1"> Yes</label><br>
-        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-        <label for="vehicle2"> No</label><br>
-        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-        <label for="vehicle3"> Maybe</label><br><br>
+        <p>Would you recommend GeeksforGeeks to a friend?</p>
+        
+        <input type="radio" name="recommend" id="option1" required>
+        <label for="option1">Yes</label><br>
+        <input type="radio" name="recommend" id="option2">
+        <label for="option2">No</label><br>
+        <input type="radio" name="recommend" id="option3">
+        <label for="option3">Maybe</label><br><br>
         <input type="submit" value="Submit">
       </form>
-
+      
+    <form action="/action_page">
+        <input type="checkbox">
+        <label for="option1">C</label><br>
+        <input type="checkbox">
+        <label for="option2">C++</label><br>
+        <input type="checkbox">
+        <label for="option1">C#</label><br>
+        <input type="checkbox">
+        <label for="option2">Java</label><br>
+        <input type="checkbox">
+        <label for="option1">Python</label><br>
+        <input type="checkbox">
+        <label for="option2">Javascript</label><br>
+        <input type="checkbox">
+        <label for="option2">React</label><br>
+        <input type="checkbox">
+        <label for="option2">Angular</label><br>
+        <input type="checkbox">
+        <label for="option2"> Django</label><br>
+        <input type="checkbox">
+        <label for="option3">Spring</label><br><br>
+      </form>
+      <label for="text">Any comments or suggestions</label>
+    <br>
+    <input type="text">
+    <br>
+    <input type="submit" value="Submit">
+</div></center>
 </body>
-
 
 </html>
