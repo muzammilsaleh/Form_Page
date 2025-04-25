@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" href="style.css">
     <title>UI form task</title>
 </head>
 
 <body>
-<center><div>
+<div>
+  <br>
     <label for="fname">Name:</label>
     <br>
     <input type="text">
+    <br>
     <br>
     <label for="femail">Email:</label>
     <br>
     <input type="text">
     <br>
+    <br>
     <label for="fage">Age:</label>
     <br>
     <input type="text">
+    <br>
     <br>
 
     <label for="text">Which option describes you best?</label>
@@ -27,20 +32,18 @@
         <option value="option3">Head</option>
     </select>
     <br>
-    <br>
     <form action="/action_page">
         <p>Would you recommend GeeksforGeeks to a friend?</p>
-        
         <input type="radio" name="recommend" id="option1" required>
         <label for="option1">Yes</label><br>
         <input type="radio" name="recommend" id="option2">
         <label for="option2">No</label><br>
         <input type="radio" name="recommend" id="option3">
-        <label for="option3">Maybe</label><br><br>
-        <input type="submit" value="Submit">
+        <label for="option3">Maybe</label><br>
       </form>
       
     <form action="/action_page">
+        <p>Languages and frameworks knowns (check all that apply)</p>
         <input type="checkbox">
         <label for="option1">C</label><br>
         <input type="checkbox">
@@ -66,8 +69,10 @@
     <br>
     <input type="text">
     <br>
-    <input type="submit" value="Submit">
-</div></center>
+    <br>
+    <center><button>Submit</button></center>
+</div>
+
 </body>
 
 </html>
